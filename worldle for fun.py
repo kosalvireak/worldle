@@ -1,5 +1,5 @@
 #list for random word
-import random
-list = ["hello","tiger","phone","table","apple","zebra","learn"]
-main_text = random.list()
+from random import choice
+text = ["hello","tiger","phone","table","apple","zebra","learn"]
+main_text = choice(text)
 print(main_text)
