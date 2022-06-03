@@ -1,6 +1,6 @@
 #list for random word
 from random import choice
-word = ["hello","tiger","phone","table","apple","zebra","learn"]
+word = ["hello","tiger","phone","table","apple","zebra","learn","books"]
 main_word = choice(word)
 print(main_word)
 keep_loop = 0
