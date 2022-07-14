@@ -1,7 +1,9 @@
-#list for random word
-from random import choice
-word = ["hello","tiger","phone","table","apple","zebra","learn","books"]
-main_word = choice(word)
+import random
+a = random.randrange(1,500)
+file = open("word.txt")
+line = file.readlines()
+
+main_word = line[a]
 print(main_word)
 keep_loop = 0
 while keep_loop < 6:
@@ -19,5 +21,3 @@ while keep_loop < 6:
     keep_loop += 1
     if input_word == main_word:
         break
-    # end=input("want again?(y/n):")
-    # keep_loop = end== "y"
